@@ -6,9 +6,10 @@ export function Header() {
           <i className="fas fa-bars"></i>
         </label>
         <nav className="navbar">
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a href="about">About</a>
+          <a href="project">Projects</a>
+          <a href="resume">Resume</a>
+          <a href="contact">Contact</a>
         </nav>
         <div className="header-icons">
           <a href="#">
