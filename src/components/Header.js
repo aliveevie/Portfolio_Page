@@ -7,8 +7,9 @@ export function Header() {
         </label>
         <nav className="navbar">
           <a href="about">About</a>
-          <a href="project">Projects</a>
+          <a href="projects">Projects</a>
           <a href="resume">Resume</a>
+          <a href="skills">Skills</a>
           <a href="contact">Contact</a>
         </nav>
         <div className="header-icons">

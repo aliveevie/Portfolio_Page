@@ -1,8 +1,6 @@
-
-
 export function Projects() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h2>Projects</h2>
       <p>I have completed the following projects:</p>
 
@@ -59,7 +57,7 @@ export function Projects() {
 
         <div className="project">
           <h3>Wheather Fetching API</h3>
-          <img src="#" alt="Another Project" />
+          <img src="#" alt="Wheather Fetching API image" />
           <p>
            This is an API that is Fetching Wheather and then showing the Wheather on various locations
           </p>
@@ -72,7 +70,6 @@ export function Projects() {
             </a>
           </div>
         </div>
-
       </div>
     </div>
   );
