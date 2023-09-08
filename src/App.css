@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header container styles */
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 10px 20px;
+  background-color: #333;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Navigation links styles */
+.navbar {
+  display: flex;
+  gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hamburger menu icon styles */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Header icons styles */
+.header-icons a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: #333;
+    padding: 10px;
   }
+
+  .navbar a {
+    margin: 5px 0;
+  }
+
+  #menu-toggle:checked + .navbar {
+    display: flex;
+  }
+}
+
+/* About container styles */
+/* About container styles */
+.about-container {
+  padding: 20px;
+}
+
+/* About content styles */
+.about-content {
+  display: flex;
+  flex-direction: row; /* Display the content side by side */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+/* About text styles */
+.about-text {
+  max-width: 600px;
+  margin-right: 20px; /* Add spacing between text and image */
+}
+
+.about-text h1 {
+  font-size: 24px;
+}
+
+.about-text p {
+  font-size: 16px;
+}
+
+/* About image styles */
+.about-image img {
+  max-width: 200px; /* Adjust the image size as needed */
+  height: auto;
+  border-radius: 50%; /* Make the image round */
+}
+
+/* Additional styles for rounded images */
+.round-image {
+  border: 2px solid #333; /* Optional: Add a border to the round image */
 }
