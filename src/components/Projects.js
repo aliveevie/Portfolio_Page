@@ -1,11 +1,15 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 export function Projects() {
 
   const videoContainerRef = useRef(null);
+  const [hasInteracted, setHasInteracted] = useState(false);
 
-  // Function to play the video on hover
-  const handleMouseEnter = () => {
+  // Function to handle user interaction (e.g., clicking a button)
+  const handleUserInteraction = () => {
+    setHasInteracted(true);
+
+    // Play all videos
     const videos = videoContainerRef.current.querySelectorAll('video');
     videos.forEach((video) => {
       if (video) {
@@ -16,13 +20,16 @@ export function Projects() {
 
   // Function to pause all videos when not hovering
   const handleMouseLeave = () => {
-    const videos = videoContainerRef.current.querySelectorAll('video');
-    videos.forEach((video) => {
-      if (video) {
-        video.pause();
-      }
-    });
+    if (hasInteracted) {
+      const videos = videoContainerRef.current.querySelectorAll('video');
+      videos.forEach((video) => {
+        if (video) {
+          video.pause();
+        }
+      });
+    }
   };
+
 
 
 
@@ -33,8 +40,8 @@ export function Projects() {
       <h2>Projects</h2>
       <p>I have completed the following projects:</p>
 
-      <div className="project-grid"
-        onMouseEnter={handleMouseEnter}
+      <div
+        className="project-grid"
         onMouseLeave={handleMouseLeave}
         ref={videoContainerRef}
       >
@@ -44,7 +51,9 @@ export function Projects() {
           <p>
             This is a blog post API that allows users to generate, add, edit, and delete blog posts.
           </p>
-          <video src="/BlogPost.webm" alt="Blog Post API" />
+          <video src="/BlogPost.webm" alt="Blog Post API" 
+          controls
+          />
           <div className="project-buttons">
             <a href="https://blog-post-api-t5u8.onrender.com/">
               <button>Live URL</button>
@@ -61,7 +70,9 @@ export function Projects() {
           <p>
            This is basic game of life, develop with react and deploy to netlify
           </p>
-          <video src="/gamelife.webm" alt="Game of life Project" />
+          <video src="/gamelife.webm" alt="Game of life Project" 
+          controls
+          />
          
           <div className="project-buttons">
             <a href="https://64d3bc05a4ea5b069e56b5e4--candid-lolly-c39496.netlify.app/">
@@ -78,7 +89,9 @@ export function Projects() {
           <p>
            This is Game of Tic tae toe!
           </p>
-          <video src="tic-tac-game.webm" alt="Game of Tic tae" />
+          <video src="tic-tac-game.webm" alt="Game of Tic tae" 
+          controls
+          />
           <div className="project-buttons">
             <a href="https://64ca878ce6fd9d17001b1211--cheery-dusk-71bebe.netlify.app/">
               <button>Live URL</button>
@@ -94,7 +107,9 @@ export function Projects() {
           <p>
            This is an API that is Fetching Wheather
           </p>
-          <video src="wheather.webm" alt="Wheather Fetching API image" />
+          <video src="wheather.webm" alt="Wheather Fetching API image" 
+          controls
+          />
         
           <div className="project-buttons">
             <a href="https://64c26d2397f23600b0ca48ad--ivione.netlify.app/">
