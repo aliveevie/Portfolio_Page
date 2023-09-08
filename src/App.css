@@ -31,11 +31,16 @@
 .header-icons a {
   color: white;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 20px;
+}
+
+.header-icons{
+  display: flex;
+  margin-right: 20px;
 }
 
 /* Media query for responsive design */
@@ -127,7 +132,7 @@
   font-size: 20px;
 }
 
-.project img {
+.project video {
   max-width: 100%;
   height: auto;
   margin-top: 10px;

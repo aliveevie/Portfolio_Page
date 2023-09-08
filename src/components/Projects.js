@@ -8,10 +8,10 @@ export function Projects() {
         {/* Project 1 */}
         <div className="project">
           <h3>Blog Post API</h3>
-          <img src="/project1.jpeg" alt="Blog Post API" />
           <p>
             This is a blog post API that allows users to generate, add, edit, and delete blog posts.
           </p>
+          <video src="/BlogPost.webm" alt="Blog Post API" />
           <div className="project-buttons">
             <a href="https://blog-post-api-t5u8.onrender.com/">
               <button>Live URL</button>
@@ -25,10 +25,11 @@ export function Projects() {
         {/* Project 2 */}
         <div className="project">
           <h3>Game of Life</h3>
-          <img src="#" alt="Game of life Project" />
           <p>
            This is basic game of life, develop with react and deploy to netlify
           </p>
+          <video src="/gamelife.webm" alt="Game of life Project" />
+         
           <div className="project-buttons">
             <a href="https://64d3bc05a4ea5b069e56b5e4--candid-lolly-c39496.netlify.app/">
               <button>Live URL</button>
