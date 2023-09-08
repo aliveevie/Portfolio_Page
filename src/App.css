@@ -32,6 +32,10 @@
   color: white;
   text-decoration: none;
   margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
 }
 
 /* Media query for responsive design */

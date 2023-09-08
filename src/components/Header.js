@@ -14,16 +14,16 @@ export function Header() {
         </nav>
         <div className="header-icons">
           <a href="#">
-            <i className="fab fa-github"></i>
+            <img src="/github.svg" />
           </a>
           <a href="#">
-            <i className="fab fa-linkedin"></i>
+            <img src="/twitter.svg"  />
           </a>
           <a href="#">
-            <i className="fab fa-twitter"></i>
+            <img src="/whatapp.svg"  />
           </a>
           <a href="#">
-            <i className="fas fa-phone"></i>
+            <img src=""  />
           </a>
         </div>
       </div>

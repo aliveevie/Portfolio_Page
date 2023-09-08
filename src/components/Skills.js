@@ -9,7 +9,7 @@ export function Skills() {
           <p>HTML</p>
         </div>
         <div className="skill">
-          <img src="/javascript-logo.png" alt="JavaScript Logo" />
+          <img src="/javascript.svg" alt="JavaScript Logo" />
           <p>JavaScript</p>
         </div>
         <div className="skill">
@@ -17,7 +17,7 @@ export function Skills() {
           <p>Python</p>
         </div>
         <div className="skill">
-          <img src="/css-logo.png" alt="CSS Logo" />
+          <img src="/css.svg" alt="CSS Logo" />
           <p>CSS</p>
         </div>
         <div className="skill">
@@ -25,12 +25,12 @@ export function Skills() {
           <p>SQL</p>
         </div>
         <div className="skill">
-          <img src="/mongodb-logo.png" alt="MongoDB Logo" />
+          <img src="/mongoDB.svg" alt="MongoDB Logo" />
           <p>MongoDB</p>
         </div>
         <div className="skill">
-          <img src="/passportjs-logo.png" alt="Passport.js Logo" />
-          <p>Passport.js</p>
+          <img src="/react.svg" alt="Passport.js Logo" />
+          <p>React</p>
         </div>
       </div>
     </div>
