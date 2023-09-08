@@ -1,10 +1,43 @@
+import { useRef } from "react";
+
 export function Projects() {
+
+  const videoContainerRef = useRef(null);
+
+  // Function to play the video on hover
+  const handleMouseEnter = () => {
+    const videos = videoContainerRef.current.querySelectorAll('video');
+    videos.forEach((video) => {
+      if (video) {
+        video.play();
+      }
+    });
+  };
+
+  // Function to pause all videos when not hovering
+  const handleMouseLeave = () => {
+    const videos = videoContainerRef.current.querySelectorAll('video');
+    videos.forEach((video) => {
+      if (video) {
+        video.pause();
+      }
+    });
+  };
+
+
+
+
+
   return (
     <div className="projects-container" id="projects">
       <h2>Projects</h2>
       <p>I have completed the following projects:</p>
 
-      <div className="project-grid">
+      <div className="project-grid"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        ref={videoContainerRef}
+      >
         {/* Project 1 */}
         <div className="project">
           <h3>Blog Post API</h3>
@@ -42,10 +75,10 @@ export function Projects() {
          {/* Project 2 */}
          <div className="project">
           <h3>Tic Tac Toe Game</h3>
-          <img src="#" alt="Another Project" />
           <p>
            This is Game of Tic tae toe!
           </p>
+          <video src="tic-tac-game.webm" alt="Game of Tic tae" />
           <div className="project-buttons">
             <a href="https://64ca878ce6fd9d17001b1211--cheery-dusk-71bebe.netlify.app/">
               <button>Live URL</button>
@@ -58,10 +91,11 @@ export function Projects() {
 
         <div className="project">
           <h3>Wheather Fetching API</h3>
-          <img src="#" alt="Wheather Fetching API image" />
           <p>
-           This is an API that is Fetching Wheather and then showing the Wheather on various locations
+           This is an API that is Fetching Wheather
           </p>
+          <video src="wheather.webm" alt="Wheather Fetching API image" />
+        
           <div className="project-buttons">
             <a href="https://64c26d2397f23600b0ca48ad--ivione.netlify.app/">
               <button>Live URL</button>
