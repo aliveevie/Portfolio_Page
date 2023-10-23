@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Navigation links styles */
+  .navbar {
+    display: flex;
+    gap: 20px;
+    color: red;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Hamburger menu icon styles */
+ 
+  
+  /* Header icons styles */
+  .header-icons a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+  }
+  
+  .header-icons{
+    display: flex;
+    margin-right: 5px;
+  }
+
+  label{
+    display: none;
+    cursor: pointer;
+  }
+
+  .navbar-main a{
+    color: red;
+    margin-right: 10px;
+  }
+  
+ /* Media query for responsive design */
+ @media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .navbar-main  a {
+        display: none; /* Hide only the .navbar-main */
+    }
+
+    label {
+        display: flex;
+        position: absolute;
+        right: 20px; 
+    } 
+
+    .menu-icon {
+        display: block;
+        position: relative;
+        padding: 10px;
+    }
+
+    .close-button {
+        position: absolute;
+        top: -20px;
+        right: -50px;
+        font-size: 24px;
+        cursor: pointer;
+        color: red;
+    }
+
+    .menu-icon a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 5px 0;
+    }
+}
+
+

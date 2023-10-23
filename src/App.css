@@ -1,75 +1,3 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #333;
-  color: white;
-}
-
-/* Navigation links styles */
-.navbar {
-  display: flex;
-  gap: 20px;
-  color: red;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-/* Hamburger menu icon styles */
-.menu-icon {
-  display: none;
-  cursor: pointer;
-  font-size: 24px;
-}
-
-/* Header icons styles */
-.header-icons a {
-  color: white;
-  text-decoration: none;
-  margin-right: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-}
-
-.header-icons{
-  display: flex;
-  margin-right: 5px;
-}
-
-/* Media query for responsive design */
-@media screen and (max-width: 768px) {
-  .menu-icon {
-    display: block;
-  }
-
-  .navbar {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    left: 20px;
-    background-color: #333;
-    padding: 10px;
-  }
-
-  .navbar a {
-    margin: 5px 0;
-  }
-
-  #menu-toggle:checked + .navbar {
-    display: flex;
-  }
-}
-
-/* About container styles */
-/* About container styles */
 .about-container {
   padding: 20px;
 }
@@ -243,7 +171,5 @@ button {
   cursor: pointer;
 }
 
-.eye-catching img{
-      width: 50px;
-}
+
 
