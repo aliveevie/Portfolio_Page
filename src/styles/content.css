@@ -1,0 +1,27 @@
+.eye-catching {
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.start-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.animation-text{
+    display: flex;
+}
+
+.animation-text img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.start-text h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 400;
+}
+
+
+
