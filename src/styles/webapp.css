@@ -1,0 +1,118 @@
+.webapp {
+    text-align: center;
+    padding: 20px;
+}
+
+.webapp-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: red;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.webanimation {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.hidden-text {
+    display: inline;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hidden-text::after {
+    content: " ";
+    display: inline-block;
+    width: 100%;
+    height: 1em;
+    position: absolute;
+    right: 0;
+    animation: showText 4s steps(36, end) infinite;
+}
+
+@keyframes showText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.apps {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.app1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 2px;
+    height: 100px;
+    background: #007bff;
+    margin-right: 20px;
+}
+
+.number {
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.text h3 {
+    text-align: left;
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    position: relative;
+  
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    color: white;
+}
+
+.text {
+    position: relative;
+    left: 35px;
+    top: -30px;
+    
+}
+
+.textandline{
+    position: relative;
+    top: 100px;
+    left: -35px;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .line {
+        height: 60px;
+    }
+
+    .number {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+}
