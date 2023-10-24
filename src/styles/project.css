@@ -51,6 +51,22 @@
     border: none;
     cursor: pointer;
   }
+
+  .project-header{
+    text-align: center;
+  }
+
+  .project-header h2{
+    color: red;
+    font-size: 50px;
+  }
+
+  .project-header p{
+    text-align: center;
+    position: relative;
+    left: -150px;
+    color: white;
+  }
   
   /* Responsive styles */
   @media screen and (max-width: 768px) {

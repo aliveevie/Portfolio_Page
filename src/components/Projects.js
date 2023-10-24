@@ -34,8 +34,11 @@ export function Projects() {
 
   return (
     <div className="projects-container" id="projects">
+      <div className="project-header" > 
       <h2>Projects</h2>
-      <p>I have completed the following projects:</p>
+      <p>A Legacy of Achievement: Behold, My Completed Projects!</p>
+      </div>
+     
 
       <div
         className="project-grid"
