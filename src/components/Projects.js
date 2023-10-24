@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import '../styles/project.css'
 
 export function Projects() {
 
@@ -29,10 +30,6 @@ export function Projects() {
       });
     }
   };
-
-
-
-
 
 
   return (
@@ -110,7 +107,7 @@ export function Projects() {
           <video src="wheather.webm" alt="Wheather Fetching API image" 
           controls
           />
-        
+          
           <div className="project-buttons">
             <a href="https://64c26d2397f23600b0ca48ad--ivione.netlify.app/">
               <button>Live URL</button>

@@ -57,14 +57,14 @@
 .line {
     width: 2px;
     height: 100px;
-    background: #007bff;
+    background: red;
     position: relative;
     left: 14px;
     top: 10px;
 }
 
 .number {
-    background: #007bff;
+    background: green;
     color: white;
     border-radius: 50%;
     width: 30px;
@@ -90,6 +90,8 @@
     line-height: 1.5;
     margin: 0;
     color: white;
+    width: 70%;
+    text-align: left;
 }
 
 .text {
@@ -137,20 +139,33 @@
     display: flex;
     align-items: center;
     margin-right: 140px;
+    margin-top: -70px;
 }
 
 
 
 .app2 .number{
     position: relative;
-    top: -190px;
+    top: -205px;
     left: 30px;
 }
 
 .app2 .line{
     position: relative;
-    top: -115px;
+    top: -130px;
     left: -6px;
+}
+
+.app2 .text p{
+    text-align: left;
+    position: relative;
+    left: 150px;
+    top: -20px;
+}
+
+.app2 .buttons button{
+    position: relative;
+    left: 170px;
 }
 
 
