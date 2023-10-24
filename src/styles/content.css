@@ -49,12 +49,15 @@
     color: red;
     font-size: 40px; /* Increase the font size */
     font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
     .animation-text{
-        display: block;
-        
+        display: block;  
     }
 }
 
