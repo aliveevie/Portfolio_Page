@@ -1,0 +1,16 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.name h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+body{
+    margin-bottom: 50px;
+}
