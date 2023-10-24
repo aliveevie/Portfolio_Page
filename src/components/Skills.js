@@ -5,6 +5,7 @@ export function Skills() {
     <div id="skills" className="skills-container">
       <div className='skill-header' >
         <h2>&lt;Skills /&gt;</h2>
+        <p></p>
       </div>
      <div class="icon-grid">
         <i class="fab fa-html5"></i>
@@ -15,7 +16,7 @@ export function Skills() {
         <i class="fab fa-react"></i>
         <i class="fab fa-java"></i>
         <i class="fab fa-php"></i>
-        <i class="fab fa-database"></i>
+        <i class="fab fa-wordpress"></i>
         <i class="fab fa-linux"></i>
         <i class="fab fa-android"></i>
         <i class="fab fa-apple"></i>
@@ -27,6 +28,7 @@ export function Skills() {
         <i class="fab fa-react"></i>
         <i class="fab fa-angular"></i>
         <i class="fab fa-vuejs"></i>
+      
 </div>
 
     </div>

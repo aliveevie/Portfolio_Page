@@ -15,6 +15,7 @@ function App() {
       <Webapp></Webapp>
       <Projects></Projects>
       <Skills />
+      <Contact />
     </div>
   );
 }
