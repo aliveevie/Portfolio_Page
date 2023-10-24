@@ -1,0 +1,42 @@
+.skills-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Skill images container styles */
+  .skills-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+  }
+  
+  /* Individual skill styles */
+  .skill {
+    text-align: center;
+  }
+  
+  .skill img {
+    max-width: 100px; /* Adjust the image size as needed */
+    height: auto;
+  }
+  
+  .skill p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .skill-header h2{
+        color: red;
+        text-align: center;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .skill-header p{
+    color: white;
+    text-align: center;
+    position: relative;
+    left: -520px;
+  }
+  

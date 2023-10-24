@@ -35,7 +35,7 @@ export function Projects() {
   return (
     <div className="projects-container" id="projects">
       <div className="project-header" > 
-      <h2>Projects</h2>
+      <h2>&lt;Projects /&gt;</h2>
       <p>A Legacy of Achievement: Behold, My Completed Projects!</p>
       </div>
      

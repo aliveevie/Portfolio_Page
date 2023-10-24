@@ -1,8 +1,12 @@
+import '../styles/skills.css'
+
 export function Skills() {
   return (
     <div id="skills" className="skills-container">
-      <h1>Skills</h1>
-      <p>This is an array of my expetise set</p>
+      <div className='skill-header' >
+            <h2>&lt;Skills /&gt;</h2>
+            <p>This is an array of my expetise set</p>
+      </div>
       <div className="skills-images">
         <div className="skill">
           <img src="/html.svg" alt="HTML Logo" />

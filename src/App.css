@@ -36,37 +36,8 @@
   border: 2px solid #333; /* Optional: Add a border to the round image */
 }
 
-/* Skills container styles */
-.skills-container {
-  text-align: center;
-  padding: 20px;
-}
-
-/* Skill images container styles */
-.skills-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2px;
-}
-
-/* Individual skill styles */
-.skill {
-  text-align: center;
-}
-
-.skill img {
-  max-width: 100px; /* Adjust the image size as needed */
-  height: auto;
-}
-
-.skill p {
-  font-size: 16px;
-  margin-top: 10px;
-}
 
 
-/* Contact container styles */
 .contact-container {
   text-align: center;
   padding: 20px;

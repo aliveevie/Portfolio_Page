@@ -14,6 +14,7 @@ function App() {
       <Content></Content>
       <Webapp></Webapp>
       <Projects></Projects>
+      <Skills />
     </div>
   );
 }

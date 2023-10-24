@@ -2,7 +2,7 @@ import '../styles/content.css'
 
 export function Content(){
     return (
-        <div className="eye-catching" >
+        <div className="eye-catching" id="about" >
             <h2>Hello!</h2>
             <p className='coder'>&lt;I'm /&gt;</p>
             <div className="start-text" >
@@ -12,8 +12,6 @@ export function Content(){
                 and elevate your business to the next level!</p>
                 <img src="/sysadmin_03.png" alt="Man With Computer" />
             </div>
-           
-               
             </div>
            
             
