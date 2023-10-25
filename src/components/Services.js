@@ -3,14 +3,12 @@ export function Services() {
     return (
         <div className='services-container' id="services" >
             <div className="services-header" 
-                    data-aos="fade-left"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="500"
+                    data-aos="zoom-out"
+                    data-aos-duration="1500"
                     
             >
                 <i class="fas fa-cogs"></i>
-                <h2>Services</h2>
+                <h2   >Services</h2>
             </div>
             <div className="services">
             <div className="service"
