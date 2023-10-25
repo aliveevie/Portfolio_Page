@@ -86,7 +86,11 @@ export function Webapp() {
             </div>
 
             <div className='webapps-mobile'>
-            <div className="app1">
+            <div className="app1"
+                 data-aos="fade-right"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500"
+            >
                     <div className='textandline' >
                     <div className="number">1</div>
                     <div className="line"></div>
@@ -105,7 +109,11 @@ export function Webapp() {
                     </div>
                     </div>
                 </div>
-                <div className="app1">
+                <div className="app1"
+                     data-aos="fade-left"
+                     data-aos-easing="linear"
+                     data-aos-duration="1500"
+                >
                     <div className='textandline' >
                     <div className="number">2</div>
                     <div className="line"></div>
@@ -124,7 +132,11 @@ export function Webapp() {
                     </div>
                     </div>
                 </div>
-                <div className="app1">
+                <div className="app1"
+                     data-aos="fade-right"
+                     data-aos-easing="linear"
+                     data-aos-duration="1500"
+                >
                     <div className='textandline' >
                     <div className="number">3</div>
                     <div className="line"></div>
@@ -142,7 +154,11 @@ export function Webapp() {
                     </div>
                     </div>
                 </div>
-                <div className="app1">
+                <div className="app1"
+                     data-aos="fade-left"
+                     data-aos-easing="linear"
+                     data-aos-duration="1500"
+                >
                     <div className='textandline' >
                     <div className="number">4</div>
                     <div className="line"></div>
