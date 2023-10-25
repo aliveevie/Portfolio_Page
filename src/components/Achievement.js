@@ -4,13 +4,19 @@ export function Achievement() {
     return (
         <div className="achievement" id="achievement" >
             <div className="achievement-header">
-                <h2>
+                <h2  data-aos="zoom-in" >
                     <i className="fas fa-medal"></i> Achievements
                 </h2>
             </div>
             <div className="achievements-container">
-                <div className="achievement-column">
-                    <div className="achievement-item">
+                <div className="achievement-column"
+                   
+                >
+                    <div className="achievement-item"
+                     data-aos="fade-right"
+                     data-aos-easing="linear"
+                     data-aos-duration="1500"
+                    >
                         <i className="fas fa-certificate"></i>
                         <h3>FreeCodeCamp Completion</h3>
                         <ul>
@@ -19,7 +25,12 @@ export function Achievement() {
                             <li>View my achievements <a href="https://www.freecodecamp.org/aliveevie" target="_blank" rel="noopener noreferrer">here</a></li>
                         </ul>
                     </div>
-                    <div className="achievement-item">
+                    <div className="achievement-item"
+                         data-aos="fade-left"
+                         data-aos-easing="linear"
+                         data-aos-duration="1500"
+                    
+                    >
                         <i className="fas fa-award"></i>
                         <h3>Hacktoberfest 2023</h3>
                         <ul>
@@ -29,9 +40,14 @@ export function Achievement() {
                         </ul>
                     </div>
                 </div>
+
                 <div className="achievement-column">
                    
-                    <div className="achievement-item">
+                    <div className="achievement-item"
+                         data-aos="fade-left"
+                         data-aos-easing="linear"
+                         data-aos-duration="1500"
+                    >
                         <i className="fas fa-graduation-cap"></i>
                         <h3>ALX Software Engineering</h3>
                         <ul>
@@ -40,7 +56,12 @@ export function Achievement() {
                             <li>Got the opportunity to join The Room</li>
                         </ul>
                     </div>
-                    <div className="achievement-item">
+                    <div className="achievement-item"
+                         data-aos="fade-right"
+                         data-aos-easing="linear"
+                         data-aos-duration="1500"
+                    
+                    >
                         <i className="fas fa-laptop-code"></i>
                         <h3>Teachers Software Management Tool</h3>
                         <ul>

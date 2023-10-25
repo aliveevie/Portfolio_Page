@@ -8,9 +8,18 @@ import { Webapp } from './components/Webapp';
 import { Footer } from './components/Footer';
 import { Services } from './components/Services';
 import { Achievement } from './components/Achievement';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 function App() {
+
+        useEffect(() => {
+          Aos.init();
+      }, []); 
+
   return (
     <div className="App">
       <Header></Header>

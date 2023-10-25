@@ -3,11 +3,14 @@ import '../styles/skills.css'
 export function Skills() {
   return (
     <div id="skills" className="skills-container">
-      <div className='skill-header' >
+      <div className='skill-header'  data-aos="zoom-in" >
         <h2>&lt;Skills /&gt;</h2>
         <p></p>
       </div>
-     <div class="icon-grid">
+     <div class="icon-grid" 
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+     >
         <i class="fab fa-html5"></i>
         <i class="fab fa-css3"></i>
         <i class="fab fa-js"></i>

@@ -1,29 +1,25 @@
-import { useRef, useState } from "react";
 import '../styles/project.css'
 
 export function Projects() {
 
-  const videoContainerRef = useRef(null);
-  const [hasInteracted, setHasInteracted] = useState(false);
+  
 
-  // Function to handle user interaction (e.g., clicking a button)
  
 
 
   return (
     <div className="projects-container" id="projects">
-      <div className="project-header" > 
+      <div className="project-header" data-aos="zoom-out" > 
             <h2>&lt;Projects /&gt;</h2>
       </div>
      
 
       <div
         className="project-grid"
-        onMouseLeave={handleMouseLeave}
-        ref={videoContainerRef}
+        
       >
         {/* Project 1 */}
-        <div className="project">
+        <div className="project" data-aos="flip-left" data-aos-duration="4000" >
           <h3>Blog Post API</h3>
           <p>
             This is a blog post API that allows users to generate, add, edit, and delete blog posts.
@@ -42,7 +38,7 @@ export function Projects() {
         </div>
 
         {/* Project 2 */}
-        <div className="project">
+        <div className="project"  data-aos="flip-right" data-aos-duration="4000" >
           <h3>Game of Life</h3>
           <p>
            This is basic game of life, develop with react and deploy to netlify
@@ -61,7 +57,7 @@ export function Projects() {
           </div>
         </div>
          {/* Project 2 */}
-         <div className="project">
+         <div className="project" data-aos="flip-right" data-aos-duration="4000"  >
           <h3>Tic Tac Toe Game</h3>
           <p>
            This is Game of Tic tae toe!
@@ -79,7 +75,7 @@ export function Projects() {
           </div>
         </div>
 
-        <div className="project">
+        <div className="project" data-aos="flip-left" data-aos-duration="4000" >
           <h3>Wheather Fetching API</h3>
           <p>
            This is an API that is Fetching Wheather

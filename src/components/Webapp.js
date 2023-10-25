@@ -3,14 +3,14 @@ import '../styles/webapp.css'
 export function Webapp() {
     return (
         <div className="webapp" >
-            <h1 className="webapp-heading">&lt;Web Apps /&gt;</h1>
+            <h1 className="webapp-heading"  data-aos="zoom-in" duration="4000" >&lt;Web Apps /&gt;</h1>
             <div className="webanimation">
-                <p className="hidden-text">
+                <p className="hidden-text" data-aos="zoom-out" duration="10000" >
                     Unlocking the Power of Web Apps: Crafting the Future with Captivating Applications
                 </p>
             </div>
             <div className="apps" id="webapps" >
-                <div className="app1">
+                <div className="app1" data-aos="fade-right"  data-aos-duration="10000" >
                     <div className='textandline' >
                     <div className="number">1</div>
                     <div className="line"></div>
@@ -30,7 +30,7 @@ export function Webapp() {
                     </div>
                 </div>
                 <div className="app2">
-                    <div className='textandline' >
+                    <div className='textandline'  data-aos="fade-left" >
                     <div className="text">
                         <h3>Game of Life</h3>
                         <p>
@@ -47,7 +47,7 @@ export function Webapp() {
                     <div className="line"></div>
                     </div>
                 </div>
-                <div className="app1">
+                <div className="app1" data-aos="fade-right" >
                     <div className='textandline' >
                     <div className="number">3</div>
                     <div className="line"></div>
@@ -66,7 +66,7 @@ export function Webapp() {
                     </div>
                     </div>
                 </div>
-                <div className="app2">
+                <div className="app2"  data-aos="fade-left">
                     <div className='textandline' >
                     <div className="text">
                         <h3>Tic-Tae-Toe Game</h3>
