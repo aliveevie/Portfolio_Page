@@ -1,7 +1,7 @@
 import '../styles/services.css';
 export function Services() {
     return (
-        <div className='services-container' >
+        <div className='services-container' id="services" >
             <div className="services-header">
                 <i class="fas fa-cogs"></i>
                 <h2>Services</h2>

@@ -7,6 +7,7 @@ import { Content } from './components/Content';
 import { Webapp } from './components/Webapp';
 import { Footer } from './components/Footer';
 import { Services } from './components/Services';
+import { Achievement } from './components/Achievement';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Webapp></Webapp>
       <Projects></Projects>
       <Services />
+      <Achievement />
       <Skills />
       <Contact />
       <Footer />

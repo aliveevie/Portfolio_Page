@@ -9,7 +9,7 @@
     text-align: center;
     width: 45%;
     max-width: 400px;
-    background-color: #f0f0f0;
+    background-color: rebeccapurple;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -23,23 +23,36 @@
 .service h3 {
     font-size: 20px;
     margin: 10px 0;
+    color: goldenrod;
 }
 
 .service p {
     font-size: 16px;
+    color: white;
 }
 
 .services-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 .services-header i {
     font-size: 36px;
     color: #007bff;
+    margin-right: 10px;
 }
 
 .services-header h2 {
-    font-size: 24px;
+    font-size: 50px;
     margin: 10px 0;
+    color: red;
+    margin-right: 10px;
+}
+
+.services-container{
+    margin-top: 100px;
 }

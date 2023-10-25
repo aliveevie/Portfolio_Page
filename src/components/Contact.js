@@ -3,7 +3,7 @@ import '../styles/contact.css'
 export function Contact() {
   return (
 
-    <div className="contact-container">
+    <div className="contact-container" id="contact" >
       <div className="contact-header" >
       <h2>&lt;Contact /&gt;</h2>
       </div>
@@ -14,7 +14,6 @@ export function Contact() {
         <a href="https://wa.me/2348138300357"><i class="fab fa-whatsapp"></i></a>
         <a href="mailto:ibrahim@ibadulkarim.co"><i class="far fa-envelope"></i></a>
         <a href="https://twitter.com/iabdulkarim472"><i class="fab fa-twitter"></i></a>
-        <a href="https://calendly.com/yourusername"><i class="far fa-calendar-alt"></i></a>
     </div>
 
 

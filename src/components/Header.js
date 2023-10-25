@@ -19,17 +19,18 @@ export function Header() {
                 </div>
                 <div className='navbar-main'>
                     <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
                 </div>
                 {!showMobile && <label onClick={handleMobileMenu} >&#9776;</label>}
 
               {showMobile && 
                <div className='menu-icon'>
                <p className="close-button" onClick={handleMobileMenu} >&times;</p>
-               <a href='#'>Certification</a>
-               <a href='#'>Resume</a>
-               <a href='#'>Certification</a>
-               <a href='#'>Contact</a>
+               <a href='#webapps'>Web Apps</a>
+               <a href='#projects'>Projects</a>
+               <a href='#services'>Services</a>
+               <a href='#achievement'>Achievement</a>
+               <a href='#skills'>Skills</a>
+               <a href='#contact'>Contact</a>
            </div>
            
               }
