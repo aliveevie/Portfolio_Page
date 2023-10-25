@@ -6,7 +6,12 @@ export function Content(){
             <h2  data-aos="zoom-in"  data-aos-duration='4000' >Hello!</h2>
             <p className='coder' data-aos="fade-down" data-aos-duration="4000"  >&lt;I'm /&gt;</p>
             <div className="start-text" >
-                <h3 data-aos="flip-right" data-aos-duration="1000">IBRAHIM ABDULKARIM</h3>
+                <h3 
+                data-aos="zoom-out"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                
+                >IBRAHIM ABDULKARIM</h3>
             <div className="animation-text" >
                 <p data-aos="fade-right" >I do more than just code; I craft web apps, ignite startups, 
                 and elevate your business to the next level!</p>
