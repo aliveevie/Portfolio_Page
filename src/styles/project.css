@@ -1,7 +1,5 @@
 .projects-container {
-    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
   }
   
   /* Project grid styles */
@@ -64,12 +62,7 @@
     font-size: 50px;
   }
 
-  .project-header p{
-    text-align: center;
-    position: relative;
-    left: -150px;
-    color: white;
-  }
+ 
   
   /* Responsive styles */
   @media screen and (max-width: 768px) {
