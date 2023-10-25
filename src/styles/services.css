@@ -1,0 +1,45 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    text-align: center;
+    width: 45%;
+    max-width: 400px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service i {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+.services-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services-header i {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.services-header h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}

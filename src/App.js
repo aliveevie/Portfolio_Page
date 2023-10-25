@@ -6,6 +6,8 @@ import { Contact } from './components/Contact';
 import { Content } from './components/Content';
 import { Webapp } from './components/Webapp';
 import { Footer } from './components/Footer';
+import { Services } from './components/Services';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Content></Content>
       <Webapp></Webapp>
       <Projects></Projects>
+      <Services />
       <Skills />
       <Contact />
       <Footer />
