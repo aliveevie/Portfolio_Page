@@ -7,29 +7,7 @@ export function Projects() {
   const [hasInteracted, setHasInteracted] = useState(false);
 
   // Function to handle user interaction (e.g., clicking a button)
-  const handleUserInteraction = () => {
-    setHasInteracted(true);
-
-    // Play all videos
-    const videos = videoContainerRef.current.querySelectorAll('video');
-    videos.forEach((video) => {
-      if (video) {
-        video.play();
-      }
-    });
-  };
-
-  // Function to pause all videos when not hovering
-  const handleMouseLeave = () => {
-    if (hasInteracted) {
-      const videos = videoContainerRef.current.querySelectorAll('video');
-      videos.forEach((video) => {
-        if (video) {
-          video.pause();
-        }
-      });
-    }
-  };
+ 
 
 
   return (
