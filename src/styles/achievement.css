@@ -3,12 +3,10 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    margin: auto 30px;
 }
 
-.achievement-header {
-    margin-bottom: 20px;
-}
+
 
 .achievement-header i {
     font-size: 36px;
@@ -17,8 +15,6 @@
 }
 
 .achievement-header h2 {
-    font-size: 50px;
-    margin: 10px 0;
     color: red;
 }
 
@@ -66,3 +62,34 @@
     margin: 5px 0;
     color: white;
 }
+
+/* New CSS for mobile responsiveness */
+@media screen and (max-width: 767px) {
+   
+
+    .achievement-header h2 {
+        font-size: 25px;
+        color: red;
+    }
+
+    .achievements-container {
+        display: block;
+        margin: auto 10px;
+    }
+
+    .achievement-column {
+        width: 120%; /* Take up the full width for mobile */
+        display: block;
+        margin: auto -28px;
+    }
+
+   
+
+  
+
+   
+
+
+   
+}
+

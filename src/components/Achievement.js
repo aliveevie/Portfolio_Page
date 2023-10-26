@@ -10,7 +10,7 @@ export function Achievement() {
             </div>
             <div className="achievements-container">
                 <div className="achievement-column"
-                   
+                   data-aos="flip-down"
                 >
                     <div className="achievement-item"
                     
@@ -24,14 +24,14 @@ export function Achievement() {
                         </ul>
                     </div>
                     <div className="achievement-item"
-                         
+                       data-aos="flip-up"   
                     
                     >
                         <i className="fas fa-award"></i>
                         <h3>Hacktoberfest 2023</h3>
                         <ul>
                             <li>Participated in Hacktoberfest 2023</li>
-                            <li>Earned four different badges, including Digital Ocean, Iilla Cloud, Appwrite, and Hacktoberfest</li>
+                            <li>Earned four different badges, including Digital Ocean, Illa Cloud, Appwrite, and Hacktoberfest</li>
                             <li>Unlocked digital swag and received a free domain from GoDaddy</li>
                         </ul>
                     </div>
@@ -40,7 +40,7 @@ export function Achievement() {
                 <div className="achievement-column">
                    
                     <div className="achievement-item"
-                       
+                       data-aos="flip-down" 
                     >
                         <i className="fas fa-graduation-cap"></i>
                         <h3>ALX Software Engineering</h3>
@@ -51,7 +51,7 @@ export function Achievement() {
                         </ul>
                     </div>
                     <div className="achievement-item"
-                       
+                        data-aos="flip-up"
                     
                     >
                         <i className="fas fa-laptop-code"></i>

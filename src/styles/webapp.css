@@ -7,15 +7,6 @@
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
 .apps {
     margin: auto 200px;
 }
@@ -228,5 +219,10 @@
 @media screen and (max-width: 800px) {
         .app1{
             margin: auto;
+        }
+
+        .buttons button{
+            width: 50%;
+            border-radius: 15px;
         }
 }

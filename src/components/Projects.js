@@ -10,7 +10,9 @@ export function Projects() {
   return (
     <div className="projects-container" id="projects">
       <div className="project-header" > 
-            <h2>&lt;Projects /&gt;</h2>
+            <h2
+            data-aos="zoom-out"
+            >&lt;Projects /&gt;</h2>
       </div>
      
 
@@ -19,7 +21,9 @@ export function Projects() {
         
       >
         {/* Project 1 */}
-        <div className="project">
+        <div className="project"
+          data-aos="fade-right"
+        >
           <h3>Blog Post API</h3>
           <p>
             This is a blog post API that allows users to generate, add, edit, and delete blog posts.
@@ -38,7 +42,9 @@ export function Projects() {
         </div>
 
         {/* Project 2 */}
-        <div className="project">
+        <div className="project"
+        data-aos="fade-up"
+        >
           <h3>Game of Life</h3>
           <p>
            This is basic game of life, develop with react and deploy to netlify
@@ -57,7 +63,9 @@ export function Projects() {
           </div>
         </div>
          {/* Project 2 */}
-         <div className="project">
+         <div className="project"
+         data-aos="fade-left"
+         >
           <h3>Tic Tac Toe Game</h3>
           <p>
            This is Game of Tic tae toe!
@@ -75,7 +83,9 @@ export function Projects() {
           </div>
         </div>
 
-        <div className="project" >
+        <div className="project" 
+        data-aos="fade-right"
+        >
           <h3>Wheather Fetching API</h3>
           <p>
            This is an API that is Fetching Wheather
@@ -93,6 +103,50 @@ export function Projects() {
             </a>
           </div>
         </div>
+
+        <div className="project" 
+        data-aos="fade-down"
+        >
+          <h3>Hackthon Landing Page</h3>
+          <p>
+           This is a hackathon Landing Page
+          </p>
+          <video src="#" alt="Wheather Fetching API image" 
+          controls
+          />
+          
+          <div className="project-buttons">
+            <a href="#">
+              <button>Live URL</button>
+            </a>
+            <a href="#">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div className="project" 
+        data-aos="fade-left"
+        >
+          <h3>Smart Teaching App</h3>
+          <p>
+           This is teaching app that simplifies teacher activities
+          </p>
+          <video src="#" alt="Smart Teaching In Schools!" 
+          controls
+          />
+          
+          <div className="project-buttons">
+            <a href="#">
+              <button>Live URL</button>
+            </a>
+            <a href="#">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   );

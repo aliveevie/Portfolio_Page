@@ -9,6 +9,7 @@
 .animation-text{
     display: flex;
     justify-content: space-evenly;
+    margin: auto 50px;
 }
 
 .animation-text img{

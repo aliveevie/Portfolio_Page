@@ -8,7 +8,7 @@ export function Skills() {
         <p></p>
       </div>
      <div class="icon-grid" 
-    
+          data-aos="zoom-out"
      >
         <i class="fab fa-html5"></i>
         <i class="fab fa-css3"></i>

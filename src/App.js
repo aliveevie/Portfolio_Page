@@ -20,7 +20,9 @@ function App() {
       <Content></Content>
       <Services/>
       <Webapp/>
-     
+      <Projects/>
+     <Achievement />
+     <Skills/>
     
     </div>
   );
