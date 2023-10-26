@@ -6,8 +6,12 @@ export function Services() {
                    
                     
             >
-                <i class="fas fa-cogs"></i>
-                <h2   >Services</h2>
+                <i class="fas fa-cogs"
+                 data-aos="zoom-in"
+                ></i>
+                <h2  
+                data-aos="zoom-out"
+                >Services</h2>
             </div>
             <div className="services">
             <div className="service"
