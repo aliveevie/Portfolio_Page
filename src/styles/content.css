@@ -1,13 +1,10 @@
 .eye-catching {
     padding: 20px;
-    margin-left: 50px;
     text-align: center;
+    margin: auto 10%;
 }
 
-.start-text{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .animation-text{
     display: flex;
@@ -19,18 +16,24 @@
     max-width: 400px;
 }
 
+
+
 .eye-catching h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50%;
     color: gold;
 }
 
 .eye-catching h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 6vw;
     color:thistle;
+}
+
+.eye-catching{
+    font-size: 8vw;
 }
 
 .buttons{
@@ -39,10 +42,11 @@
 }
 
 .animation-text p{
-    width: 500px;
-    font-size: 50px;
+    font-size: 40%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .eye-catching .coder{
@@ -55,15 +59,14 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .animation-text{
         display: block;
         font-size: auto; 
     }
 
     .animation-text p{
-        width: 250px;
-        font-size: 20px;
+        font-size: 70%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
     }

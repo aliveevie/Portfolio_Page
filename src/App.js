@@ -13,19 +13,14 @@ import { Achievement } from './components/Achievement';
 
 function App() {
 
-      
-
+  
   return (
     <div className="App">
-      <Header></Header>
+      
       <Content></Content>
-      <Webapp></Webapp>
-      <Projects></Projects>
-      <Services />
-      <Achievement />
-      <Skills />
-      <Contact />
-      <Footer />
+      <Services/>
+     
+    
     </div>
   );
 }

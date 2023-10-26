@@ -20,5 +20,9 @@ code {
   .project {
     display: block;
   }
+
+  body{
+    margin: 0 auto;
+  }
 }
 

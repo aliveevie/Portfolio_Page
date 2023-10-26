@@ -11,7 +11,7 @@ export function Services() {
             </div>
             <div className="services">
             <div className="service"
-           
+                data-aos="flip-right"
             >
                 <i class="fas fa-laptop-code"></i>
                 <h3>Front-End Development</h3>
@@ -19,7 +19,7 @@ export function Services() {
             </div>
 
             <div className="service"
-           
+                data-aos="flip-up"
             
             >
                 <i class="fas fa-server"></i>
@@ -28,7 +28,7 @@ export function Services() {
             </div>
 
             <div className="service"
-             
+             data-aos="flip-left"
             
             >
                 <i class="fas fa-code"></i>
@@ -37,7 +37,7 @@ export function Services() {
             </div>
 
             <div className="service"
-               
+               data-aos="flip-right"
             >
                 <i class="fas fa-chart-bar"></i>
                 <h3>Data Analysis</h3>
@@ -45,14 +45,14 @@ export function Services() {
             </div>
 
             <div className="service"
-                
+                data-aos="flip-down"
             >
                 <i class="fab fa-wordpress"></i>
                 <h3>WordPress Development</h3>
                 <p>Creating and customizing WordPress websites with themes and plugins tailored to your needs.</p>
             </div>
             <div className="service"
-         
+                data-aos="flip-right"
             >
                 <i class="fas fa-chalkboard-teacher"></i>
                 <h3>Training</h3>
