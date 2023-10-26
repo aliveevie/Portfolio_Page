@@ -3,8 +3,7 @@ export function Services() {
     return (
         <div className='services-container' id="services" >
             <div className="services-header" 
-                    data-aos="zoom-out"
-                    data-aos-duration="1500"
+                   
                     
             >
                 <i class="fas fa-cogs"></i>
@@ -12,9 +11,7 @@ export function Services() {
             </div>
             <div className="services">
             <div className="service"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+           
             >
                 <i class="fas fa-laptop-code"></i>
                 <h3>Front-End Development</h3>
@@ -22,9 +19,7 @@ export function Services() {
             </div>
 
             <div className="service"
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+           
             
             >
                 <i class="fas fa-server"></i>
@@ -33,9 +28,7 @@ export function Services() {
             </div>
 
             <div className="service"
-                data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
+             
             
             >
                 <i class="fas fa-code"></i>
@@ -44,10 +37,7 @@ export function Services() {
             </div>
 
             <div className="service"
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-            
+               
             >
                 <i class="fas fa-chart-bar"></i>
                 <h3>Data Analysis</h3>
@@ -55,20 +45,14 @@ export function Services() {
             </div>
 
             <div className="service"
-                data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-            
+                
             >
                 <i class="fab fa-wordpress"></i>
                 <h3>WordPress Development</h3>
                 <p>Creating and customizing WordPress websites with themes and plugins tailored to your needs.</p>
             </div>
             <div className="service"
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-            
+         
             >
                 <i class="fas fa-chalkboard-teacher"></i>
                 <h3>Training</h3>

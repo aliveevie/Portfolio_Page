@@ -4,13 +4,11 @@ export function Contact() {
   return (
 
     <div className="contact-container" id="contact" >
-      <div className="contact-header"  data-aos="zoom-out" >
+      <div className="contact-header">
       <h2>&lt;Contact /&gt;</h2>
       </div>
      
-    <div class="contact-icons" 
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
+    <div class="contact-icons"
     >
         <a href="https://github.com/aliveevie/"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/ibrahim193/"><i class="fab fa-linkedin"></i></a>

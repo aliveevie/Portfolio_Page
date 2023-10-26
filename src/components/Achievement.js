@@ -4,7 +4,7 @@ export function Achievement() {
     return (
         <div className="achievement" id="achievement" >
             <div className="achievement-header">
-                <h2  data-aos="zoom-in" >
+                <h2>
                     <i className="fas fa-medal"></i> Achievements
                 </h2>
             </div>
@@ -13,9 +13,7 @@ export function Achievement() {
                    
                 >
                     <div className="achievement-item"
-                     data-aos="fade-right"
-                     data-aos-easing="linear"
-                     data-aos-duration="1500"
+                    
                     >
                         <i className="fas fa-certificate"></i>
                         <h3>FreeCodeCamp Completion</h3>
@@ -26,9 +24,7 @@ export function Achievement() {
                         </ul>
                     </div>
                     <div className="achievement-item"
-                         data-aos="fade-left"
-                         data-aos-easing="linear"
-                         data-aos-duration="1500"
+                         
                     
                     >
                         <i className="fas fa-award"></i>
@@ -44,9 +40,7 @@ export function Achievement() {
                 <div className="achievement-column">
                    
                     <div className="achievement-item"
-                         data-aos="fade-left"
-                         data-aos-easing="linear"
-                         data-aos-duration="1500"
+                       
                     >
                         <i className="fas fa-graduation-cap"></i>
                         <h3>ALX Software Engineering</h3>
@@ -57,9 +51,7 @@ export function Achievement() {
                         </ul>
                     </div>
                     <div className="achievement-item"
-                         data-aos="fade-right"
-                         data-aos-easing="linear"
-                         data-aos-duration="1500"
+                       
                     
                     >
                         <i className="fas fa-laptop-code"></i>

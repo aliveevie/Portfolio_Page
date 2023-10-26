@@ -57,8 +57,24 @@
 
 @media screen and (max-width: 768px) {
     .animation-text{
-        display: block;  
+        display: block;
+        font-size: auto; 
     }
+
+    .animation-text p{
+        width: 250px;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+
+    .start-text h3{
+        font-size: 20px;
+    }
+
+
+
+
 }
 
 
