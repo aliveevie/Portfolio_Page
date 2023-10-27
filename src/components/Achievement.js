@@ -3,7 +3,7 @@ import '../styles/achievement.css'
 export function Achievement() {
     return (
         <div className="achievement" id="achievement" >
-            <div className="achievement-header">
+            <div className="achievement-header" data-aos="zoom-out"  >
                 <h2>
                     <i className="fas fa-medal"></i> Achievements
                 </h2>

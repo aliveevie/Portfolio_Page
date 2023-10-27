@@ -2,7 +2,7 @@ import '../styles/webapp.css'
 
 export function Webapp() {
     return (
-        <div className="webapp" >
+        <div className="webapp"  id="webapp" >
             <h1 className="webapp-heading"
              data-aos="zoom-out"
             >&lt;Web Apps /&gt;</h1>

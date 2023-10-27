@@ -9,7 +9,7 @@
 .animation-text{
     display: flex;
     justify-content: space-evenly;
-    margin: auto 50px;
+    margin: auto 20px;
 }
 
 .animation-text img{
@@ -67,7 +67,7 @@
     }
 
     .animation-text p{
-        font-size: 70%;
+        font-size: 120%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
     }
