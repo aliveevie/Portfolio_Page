@@ -111,15 +111,15 @@ export function Projects() {
           <p>
            This is a hackathon Landing Page
           </p>
-          <video src="#" alt="Wheather Fetching API image" 
+          <video src="landinPage.webm" alt="Landing Page video" 
           controls
           />
           
           <div className="project-buttons">
-            <a href="#">
+            <a href="https://650e4ed8bef72e65833eec61--transcendent-druid-eddde8.netlify.app/">
               <button>Live URL</button>
             </a>
-            <a href="#">
+            <a href="https://github.com/aliveevie/competition-landing-page">
               <button>Source Code</button>
             </a>
           </div>
@@ -138,10 +138,10 @@ export function Projects() {
           />
           
           <div className="project-buttons">
-            <a href="#">
+            <a href="https://github.com/aliveevie/smart-T">
               <button>Live URL</button>
             </a>
-            <a href="#">
+            <a href="https://github.com/aliveevie/smart-T">
               <button>Source Code</button>
             </a>
           </div>
