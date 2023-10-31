@@ -125,7 +125,6 @@ export function Projects() {
           </div>
         </div>
 
-
         <div className="project" 
         data-aos="fade-left"
         >
@@ -146,6 +145,70 @@ export function Projects() {
             </a>
           </div>
         </div>
+
+        <div className="project" 
+        data-aos="fade-down"
+        >
+          <h3>Markdown Previewer!</h3>
+          <p>
+            This simplifies the process of creating markdown!
+          </p>
+          <video src="markdown.webm" alt="Landing Page video" 
+          controls
+          />
+          
+          <div className="project-buttons">
+            <a href="https://markdown-preview-gamma-eight.vercel.app/">
+              <button>Live URL</button>
+            </a>
+            <a href="https://github.com/aliveevie/markdown-preview">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="project" 
+        data-aos="fade-down"
+        >
+          <h3>Random Quote Generator</h3>
+          <p>
+           This is an app that generates code!
+          </p>
+          <video src="randomq.webm" alt="Landing Page video" 
+          controls
+          />
+          
+          <div className="project-buttons">
+            <a href="https://random-quote-gen-rosy.vercel.app/">
+              <button>Live URL</button>
+            </a>
+            <a href="https://github.com/aliveevie/Random_Quote_Gen">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="project" 
+        data-aos="fade-down"
+        >
+          <h3>Stop Watch</h3>
+          <p>
+           This is a basic stopwatch
+          </p>
+          <video src="stopwatch.webm" alt="Landing Page video" 
+          controls
+          />
+          
+          <div className="project-buttons">
+            <a href="https://stop-watch-pi-sage.vercel.app/">
+              <button>Live URL</button>
+            </a>
+            <a href="https://github.com/aliveevie/StopWatch">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+        
 
       </div>
     </div>
