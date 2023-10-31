@@ -128,19 +128,19 @@ export function Projects() {
         <div className="project" 
         data-aos="fade-left"
         >
-          <h3>Smart Teaching App</h3>
+          <h3>Basic Calculator!</h3>
           <p>
-           This is teaching app that simplifies teacher activities
+           This is basic calculator that does most simple arithmetic
           </p>
-          <video src="#" alt="Smart Teaching In Schools!" 
+          <video src="calculator.webm" alt="Smart Teaching In Schools!" 
           controls
           />
           
           <div className="project-buttons">
-            <a href="https://github.com/aliveevie/smart-T">
+            <a href="https://calculator-ecru-psi.vercel.app/">
               <button>Live URL</button>
             </a>
-            <a href="https://github.com/aliveevie/smart-T">
+            <a href="https://github.com/aliveevie/calculator">
               <button>Source Code</button>
             </a>
           </div>
